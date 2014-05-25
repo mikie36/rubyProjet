@@ -1,4 +1,18 @@
 RubyProjet::Application.routes.draw do
+
+root to: 'static_pages#home'
+
+
+  match '/anecdote',to: "static_pages#anecdote"
+  match '/home',to: "static_pages#home"
+  match '/help',to: "static_pages#help"
+  match '/lieu',to: "static_pages#lieu"
+  match '/personnage',to: "static_pages#personnage"
+  match '/scene',to: "static_pages#scene"
+  match '/sujet',to: "static_pages#sujet"
+  match '/theme',to: "static_pages#theme"
+  match '/chapitre',to: "static_pages#chapitre"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
