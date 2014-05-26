@@ -12,6 +12,7 @@ root to: 'static_pages#home'
   match '/sujet',to: "static_pages#sujet"
   match '/theme',to: "static_pages#theme"
   match '/chapitre',to: "static_pages#chapitre"
+  match '/periode',to: "static_pages#periode"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

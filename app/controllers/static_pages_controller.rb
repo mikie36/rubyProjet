@@ -26,4 +26,7 @@ class StaticPagesController < ApplicationController
   
   def chapitre
   end
+
+  def periode
+  end
 end
